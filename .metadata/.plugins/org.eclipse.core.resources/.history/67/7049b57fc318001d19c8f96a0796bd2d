@@ -1,0 +1,11 @@
+package desafios;
+
+public class desafiosAritimeticos {
+	public static void main(String[] args) {
+		int a_cima = 6 * (3 + 2);
+		int a_cimaPotencia = (int) Math.pow(a_cima, 2);
+		int a_baixo = 3*2;
+		int a_total = a_cimaPotencia / a_baixo;
+		System.out.println(a_total);
+	}
+}
