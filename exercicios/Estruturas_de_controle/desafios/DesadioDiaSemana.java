@@ -11,19 +11,19 @@ public class DesadioDiaSemana {
 		String diaSemana = entrada.next();
 		entrada.close();
 		
-		if(diaSemana.equals("Domingo")) {
+		if(diaSemana.equalsIgnoreCase("Domingo")) {
 			System.out.println("O número desse dia é 1");
-		} else if(diaSemana.equals("Segunda")) {
+		} else if(diaSemana.equalsIgnoreCase("Segunda")) {
 			System.out.println("O número desse dia é 2");
-		} else if(diaSemana.equals("Terça")) {
+		} else if(diaSemana.equalsIgnoreCase("Terça")) {
 			System.out.println("O número desse dia é 3");
-		} else if(diaSemana.equals("Quarta")) {
+		} else if(diaSemana.equalsIgnoreCase("Quarta")) {
 			System.out.println("O número desse dia é 4");
-		} else if(diaSemana.equals("Quinta")) {
+		} else if(diaSemana.equalsIgnoreCase("Quinta")) {
 			System.out.println("O número desse dia é 5");
-		} else if(diaSemana.equals("Sexta")) {
+		} else if(diaSemana.equalsIgnoreCase("Sexta")) {
 			System.out.println("O número desse dia é 6");
-		} else if(diaSemana.equals("Sábado")) {
+		} else if(diaSemana.equalsIgnoreCase("Sábado")) {
 			System.out.println("O número desse dia é 7");
 		} else {
 			System.out.println("Dia da semana inválido !!\nEscola um dia válido");
