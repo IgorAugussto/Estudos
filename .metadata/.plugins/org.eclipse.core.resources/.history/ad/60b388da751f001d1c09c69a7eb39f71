@@ -1,0 +1,14 @@
+package desafioFinal;
+
+public class Pessoa {
+	
+	String nome;
+	double peso;
+	
+	
+	
+	void comer() {
+		
+	}
+	
+}

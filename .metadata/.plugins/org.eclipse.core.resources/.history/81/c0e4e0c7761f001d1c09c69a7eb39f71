@@ -1,0 +1,11 @@
+package desafioFinal;
+
+public class Jantar {
+	public static void main(String[] args) {
+		Comida comida1 = new Comida("Feijão", 0.223);
+		Comida comida2 = new Comida("Arroz", 0.3);
+		
+		Pessoa p = new Pessoa("Almiltom", 80.000);
+		p.comer();
+	}
+}

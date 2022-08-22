@@ -1,0 +1,13 @@
+package desafios;
+
+public class ConcertandoErro {
+	int a = 3;
+	
+	public static void main(String[] args) {
+		
+		ConcertandoErro concerto = new ConcertandoErro();
+		
+		System.out.println(concerto.a);
+		
+	}
+}
