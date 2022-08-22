@@ -1,0 +1,26 @@
+package desafios;
+
+public class Produto {
+	String nome;
+	double preco;
+	static double desconto = 0.25;
+	
+	Produto(String nomeInicial, double precoInicial){
+		nomeInicial = nome;
+		precoInicial = preco;
+	}
+	
+	double descontoPadrao() {
+		return preco * (1 - desconto);
+	}
+	
+//	static double descontoMaes() {
+//		return
+//	}
+	
+//	static double descontoNatal() {
+//		return
+//	}
+	
+	
+}

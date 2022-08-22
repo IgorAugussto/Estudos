@@ -1,0 +1,7 @@
+package desafios;
+
+public class ClasseDataTeste {
+	public static void main(String[] args) {
+		ClasseData data = new ClasseData();
+	}
+}

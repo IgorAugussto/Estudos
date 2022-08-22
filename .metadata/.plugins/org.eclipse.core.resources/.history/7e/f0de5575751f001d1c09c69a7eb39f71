@@ -1,0 +1,14 @@
+package desafioFinal;
+
+public class Comida {
+	
+	String nomeComida;
+	double pesoComida;
+	
+	
+	void Comida(String nomeComida, double pesoComida){
+		this.nomeComida = nomeComida;
+		this.pesoComida = pesoComida;
+	}
+	
+}

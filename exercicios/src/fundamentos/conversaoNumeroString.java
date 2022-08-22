@@ -3,7 +3,7 @@ package fundamentos;
 public class conversaoNumeroString {
 
 	public static void main(String[] args) {
-		/*O Integer é p wrapp, usado para usar notações pontos em tipo primitivos como o int no exemplo. E pode ser usado
+		/*O Integer é o wrapp, usado para usar notações pontos em tipo primitivos como o int no exemplo. E pode ser usado
 		também diretamento no sysout*/
 		Integer num1 = 10000;
 		System.out.println(num1.toString().length());

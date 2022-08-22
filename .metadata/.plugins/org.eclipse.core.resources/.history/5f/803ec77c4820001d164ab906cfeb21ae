@@ -1,0 +1,18 @@
+package arrays;
+
+public class Foreach {
+	public static void main(String[] args) {
+		// Pode ser definido dessa maneira também => double[] notasAlunoA = { 6.5, 7.2, 4.8, 9 };
+		
+		double[] notasAlunoA = new double[4];
+				
+		notasAlunoA [0] = 6.5;
+		notasAlunoA [1] = 7.2;
+		notasAlunoA [2] = 4.8;
+		notasAlunoA [3] = 9;
+		
+		for(double notas: notasAlunoA) {
+			System.out.println(notas);
+		}
+	}
+}

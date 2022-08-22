@@ -1,0 +1,14 @@
+package desafios;
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		
+		System.out.println("PREÇO NORMAL!!");
+		Produto p1 = new Produto("Cadeira Gamer", 100);
+		System.out.printf("Produto: %s\nPreço: %.2f", p1.nome, p1.descontoPadrao()); 
+		System.out.println("\n\nDESCONTO DE DIA DAS MÃES!!");
+		System.out.println("\n\nDESCONTO DE NATAL!!");
+		
+		
+	}
+}

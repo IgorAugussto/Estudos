@@ -1,0 +1,10 @@
+package arrays;
+
+public class Exercicios {
+	public static void main(String[] args) {
+		
+		double[] notasAlunoA = new double[4];
+		System.out.println(notasAlunoA.length);
+		
+	}
+}
