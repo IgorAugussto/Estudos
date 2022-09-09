@@ -1,0 +1,20 @@
+package excecao.execaoPersonalizada;
+
+import excecao.Aluno;
+
+public class TesteValidacoes {
+	
+	public static void main(String[] args) {
+		
+		Aluno aluno = new Aluno("", -7);
+		
+		try {
+			Validar.aluno(aluno);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("Aluno está validao");
+	}
+}

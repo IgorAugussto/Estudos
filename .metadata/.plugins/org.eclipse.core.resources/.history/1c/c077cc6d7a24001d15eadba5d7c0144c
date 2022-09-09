@@ -1,0 +1,9 @@
+package desafios;
+
+public class ClienteTest {
+	public void main(String[] args) {
+		String nome = "Igor";
+		
+		System.out.println(nome);
+	}
+}

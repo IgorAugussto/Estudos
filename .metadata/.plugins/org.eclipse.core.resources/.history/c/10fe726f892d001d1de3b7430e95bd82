@@ -1,0 +1,9 @@
+package desafio.filter;
+
+public class DesafioFilter {
+	
+	public static void main(String[] args) {
+		
+		Produto p1 = new Produto("Camiseta", 39.90, 0.15, false);
+	}
+}

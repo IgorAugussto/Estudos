@@ -1,0 +1,21 @@
+package excecao;
+
+public class ChecadaVsNãoChecada {
+	
+	public static void main(String[] args) {
+		
+		gerarErro1();
+		
+		gerarErro2();
+		
+		System.out.println("Fim :)");
+	}
+	
+	static void gerarErro1() {
+		
+	}
+	
+	static void gerarErro2() {
+
+	}
+}

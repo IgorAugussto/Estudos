@@ -1,0 +1,9 @@
+package stream.filter;
+
+public class Aluno {
+	
+	final String nome;
+	final double nota;
+	
+	
+}

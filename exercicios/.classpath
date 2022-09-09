@@ -10,5 +10,10 @@
 	<classpathentry kind="src" path="Classes e metodos"/>
 	<classpathentry kind="src" path="Orientção a Objetos"/>
 	<classpathentry kind="src" path="ArraysECollections"/>
+	<classpathentry kind="src" path="equalsEhashcode"/>
+	<classpathentry kind="src" path="Lambdas"/>
+	<classpathentry kind="src" path="Stream API"/>
+	<classpathentry kind="src" path="Faculdade"/>
+	<classpathentry kind="src" path="Tratamento de Erros"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

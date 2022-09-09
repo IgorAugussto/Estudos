@@ -1,0 +1,13 @@
+package desafios;
+
+public class ClienteTest {
+	public static void main(String[] i) {
+		
+		Cliente cliente = new Cliente("Mario");
+		
+				
+		
+		
+		System.out.printf("Meu nome é %s e eu gastei R$%.2f em compras");
+	}
+}

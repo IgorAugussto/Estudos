@@ -1,0 +1,14 @@
+package desafio.filter;
+
+public class DesafioFilter {
+	
+	public static void main(String[] args) {
+		
+		Produto p1 = new Produto("Camiseta", 39.90, 0.15, false);
+		Produto p2 = new Produto("Mapa-múndi", 39.90, 0.30, true);
+		Produto p3 = new Produto("Fone de ouvido", 39.90, 0.10, false);
+		Produto p4 = new Produto("Notebook", 39.90, 0.50, true);
+		Produto p5 = new Produto("PC Gamer", 39.90, 0.35, false);
+		Produto p6 = new Produto("Polaroide", 39.90, 0.15, true);
+	}
+}

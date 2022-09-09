@@ -1,0 +1,20 @@
+package excecao;
+
+public class Basico {
+	
+	public static void main(String[] args) {
+		
+		Aluno aluno = null;
+		
+		imprimirNomdeAluno(aluno);
+		
+		System.out.println(7 / 0);
+		
+		
+		
+	}
+	
+	public static void imprimirNomdeAluno(Aluno aluno) {
+		System.out.println(aluno.nome);
+	}
+}

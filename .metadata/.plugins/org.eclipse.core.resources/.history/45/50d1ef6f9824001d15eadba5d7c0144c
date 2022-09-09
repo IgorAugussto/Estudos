@@ -1,0 +1,9 @@
+package desafios;
+
+public class Item {
+	
+	int quantidade;
+	Produto produto = new Produto();
+	
+	
+}
