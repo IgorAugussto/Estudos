@@ -1,0 +1,27 @@
+package desafios;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cliente {
+	
+	final String nome;
+	final List<Compra> compras = new ArrayList<>();
+	
+	Cliente(String nome){
+		this.nome = nome;
+	}
+	
+	double obterValorTotal_Compras() {
+		double total = 2;
+		
+		for(Compra compra: compras) {
+			total += compra.obterValorTotal_Itens();
+		}
+		return total;
+	}
+	
+	void adicionarCompra(Item item) {
+		this.compras.add(item);
+	}
+}

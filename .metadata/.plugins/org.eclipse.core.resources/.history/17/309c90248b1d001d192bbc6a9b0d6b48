@@ -1,7 +1,0 @@
-package desafios;
-
-public class ClasseData {
-	String dia;
-	String mes;
-	int ano;
-}

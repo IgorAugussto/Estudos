@@ -1,0 +1,9 @@
+package excecao.execaoPersonalizada;
+
+@SuppressWarnings("serial")
+public class ExcecaoPersonalizada extends RuntimeException {
+	
+	public ExcecaoPersonalizada() {
+		
+	}
+}

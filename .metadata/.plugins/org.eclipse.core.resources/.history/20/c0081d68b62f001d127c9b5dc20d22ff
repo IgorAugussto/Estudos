@@ -1,0 +1,16 @@
+package excecao.execaoPersonalizada;
+
+@SuppressWarnings("serial")
+public class ExcecaoPersonalizada extends RuntimeException {
+	
+	private String nomeDoAtributo;
+	
+	public ExcecaoPersonalizada(String nomeDoAtributo) {
+		this.nomeDoAtributo = nomeDoAtributo;
+	}
+	
+	@Override
+	public String getMessage() {
+		return String.format("O atributo '%s' está negativo", nomeDoAtributo);
+	}
+}
